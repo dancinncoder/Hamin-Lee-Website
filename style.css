@@ -321,9 +321,9 @@ body {
     margin-top: 30px;
   }
 
-  @media screen and (max-width:375px) {
+  @media screen and (max-width:414px) {
     .scroll-container a {
-        top: 94vh;
+        top: 95vh;
         margin-right: 12px;
     }
 }
