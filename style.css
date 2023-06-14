@@ -14,7 +14,7 @@ body {
 
 .background2 {
     background-color: white ;
-    height: 80vh;
+    height: 101vh;
     margin: 0;
 }
 
@@ -111,7 +111,7 @@ h1 {
 }
 
 .pofilebox {
-    padding-top: 180px;
+    padding-top: 270px;
     padding-bottom: 150px;
     text-align: center;
 }
@@ -225,6 +225,7 @@ div > span {
     height: 320px;
     width: 380px;
     float: right;
+    margin-left: 16px;
 }
 
 .justincasebox { /*글상자*/
@@ -236,7 +237,7 @@ div > span {
     flex-direction: column;
     justify-content: center;
     min-width: 100px;
-    margin-left: 5px;;
+    margin-left: 5px;
 }
 
 .gomeow {
