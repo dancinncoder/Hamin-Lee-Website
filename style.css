@@ -271,6 +271,7 @@ div > span {
     border-color: white;
     background-color:#AFD3E2;
     border-radius: 27px;
+    cursor: pointer;
 }
 
 .schedule_zoom:hover {
