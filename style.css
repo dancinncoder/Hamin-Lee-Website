@@ -145,12 +145,14 @@ div > span {
     width: 350px;
     height: 220px;
     float: right;
+    border-radius: 13px;
 }
 
 .techstack > .gif {
     width: 350px;
     height: 220px;
     float: right;
+    border-radius: 13px;
 }
 
 .skillbox {
@@ -221,12 +223,24 @@ div > span {
     flex-wrap: wrap;
 }
 
-.contactbox > img { /*고양이사진*/
-    height: 320px;
-    width: 380px;
+.locationbox { /* location icon from <a target="_blank" href="https://icons8.com/icon/7880/location">Location</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> */
+    height: 310px;
+    width: 310px;
     float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-left: 16px;
     margin-right: 16px;
+    border-radius: 13px;
+    background-color: #eeeeee;
+}
+
+.location_text {
+    margin-top: 15px;
+    font-weight: 600;
+
 }
 
 .justincasebox { /*글상자*/
@@ -241,19 +255,28 @@ div > span {
     margin-left: 5px;
 }
 
-.gomeow {
-    width: 150px;
-    height: 50px;
+.schedule_zoom {
+    width: 210px;
+    height: 45px;
     margin-top: 18px;
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 550;
+    font-size: 1.1rem;
+    font-family: Arial;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border: solid 0px;
+    color: white;
     border-color: white;
-    background-color:#eaf6f6;
+    background-color:#AFD3E2;
     border-radius: 27px;
+}
+
+.schedule_zoom:hover {
+    transform: scale(1.02);
+    background-color: #425252;
+    color: white;
 }
 
 footer {
