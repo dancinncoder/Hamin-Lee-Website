@@ -89,6 +89,13 @@ html, body {
 .profile {
     height: 180px;
     width: 150px;
+    animation-name: slideDown;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+
 }
 
 .pofilebox {
@@ -104,12 +111,55 @@ html, body {
     font-family: "YACgEbc43jc 0", _fb_, auto;
     letter-spacing: .0.5rem;
     margin-bottom: 7px;
+    animation-name: slideDown;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+
     
 }
+
+.profilebox > span {
+    animation-name: slideDown;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+     
+}
+
+.slidDown {
+    animation-name: slideDown;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
 
 .lightblue {
     color: #AFD3E2;
     margin: 5px 0 5px 0;
+    animation-name: slideDown;
+    animation-duration: 3.5s;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction: normal;
 }
 
 div > span {
