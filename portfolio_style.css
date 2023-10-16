@@ -1,0 +1,85 @@
+#clicked_portfolio {
+  color: #AFD3E2 ;
+}
+
+.portfolio_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rem;
+}
+
+.portfolio_titlearea {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio_titlearea > h1 {
+  margin: 10rem 1rem 5rem 1rem;
+}
+
+.portfolio_mainarea{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1rem 2rem 3rem;
+  /* border: 1px solid red; */
+}
+
+.portfolio_mainarea > h2 {
+  font-size: 1.7rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+  width: 8rem;
+  text-align: left;
+
+}
+
+.portfolio_mainarea > .card {
+  margin: 1rem 1rem 1rem 1rem;
+  transition:  transform .2s;
+}
+
+.card > img {
+  object-fit: cover;
+  width: 286px;
+  height: 266.27px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-body > a:hover {
+  background-color: gainsboro;
+  color: black;
+  border-color: grey;
+}
+
+/* -------------Modal --------------- */
+
+
+/* -------------Boothstrap Css --------------- */
+--#{$prefix}card-spacer-y: #{$card-spacer-y};
+--#{$prefix}card-spacer-x: #{$card-spacer-x};
+--#{$prefix}card-title-spacer-y: #{$card-title-spacer-y};
+--#{$prefix}card-title-color: #{$card-title-color};
+--#{$prefix}card-subtitle-color: #{$card-subtitle-color};
+--#{$prefix}card-border-width: #{$card-border-width};
+--#{$prefix}card-border-color: #{$card-border-color};
+--#{$prefix}card-border-radius: #{$card-border-radius};
+--#{$prefix}card-box-shadow: #{$card-box-shadow};
+--#{$prefix}card-inner-border-radius: #{$card-inner-border-radius};
+--#{$prefix}card-cap-padding-y: #{$card-cap-padding-y};
+--#{$prefix}card-cap-padding-x: #{$card-cap-padding-x};
+--#{$prefix}card-cap-bg: #{$card-cap-bg};
+--#{$prefix}card-cap-color: #{$card-cap-color};
+--#{$prefix}card-height: #{$card-height};
+--#{$prefix}card-color: #{$card-color};
+--#{$prefix}card-bg: #{$card-bg};
+--#{$prefix}card-img-overlay-padding: #{$card-img-overlay-padding};
+--#{$prefix}card-group-margin: #{$card-group-margin};
+/* -------------Boothstrap Css --------------- */
